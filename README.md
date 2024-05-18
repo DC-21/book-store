@@ -3,6 +3,7 @@ run dotnet new webapi -n "name" to create new webapi
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL.Design
+dotnet add package Microsoft.EntityFrameworkCore.Design
 
 create postgresql database: CREATE DATABASE cholapi;
 
